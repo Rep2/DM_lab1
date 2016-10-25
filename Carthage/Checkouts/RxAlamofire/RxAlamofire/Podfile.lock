@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.0.1)
+  - OHHTTPStubs (5.2.1):
+    - OHHTTPStubs/Default (= 5.2.1)
+  - OHHTTPStubs/Core (5.2.1)
+  - OHHTTPStubs/Default (5.2.1):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.2.1):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.2.1):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.2.1)
+  - OHHTTPStubs/Swift (5.2.1):
+    - OHHTTPStubs/Core
+  - RxBlocking (3.0.0-rc.1):
+    - RxSwift (~> 3.0.0-rc.1)
+  - RxCocoa (3.0.0-rc.1):
+    - RxSwift (~> 3.0.0-rc.1)
+  - RxSwift (3.0.0-rc.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - OHHTTPStubs (~> 5.0)
+  - OHHTTPStubs/Swift (~> 5.0)
+  - RxBlocking (~> 3.0.0-beta.2)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :branch: master
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :branch: master
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :commit: f51c4750103d1746d088ecdf904727989e6ec90b
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :commit: f51c4750103d1746d088ecdf904727989e6ec90b
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  OHHTTPStubs: 3a42f25c00563b71355ac73112ba2324e9e6cef4
+  RxBlocking: f942482a50abfefa84a33406b67c53af50e6cc2a
+  RxCocoa: e72a074a7f38896ec0382d096df5f58df10115c7
+  RxSwift: d7a3819dd71789c473e3cbf1a0c02d58b2692739
+
+PODFILE CHECKSUM: 83879c7046c99820bcb443e9638eff713c004920
+
+COCOAPODS: 1.1.0.rc.2

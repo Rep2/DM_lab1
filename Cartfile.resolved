@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" "4.0.1"
+github "ReactiveX/RxSwift" "3.0.0-rc.1"
+github "johnsundell/unbox" "765c13e21c49f3840e9f554d0fe4b49e1952fe79"
+github "Alamofire/AlamofireImage" "3.1.0"
+github "RxSwiftCommunity/RxAlamofire" "ba0d1a3d66c979de0b9847ae43e11e1ab3085f85"
